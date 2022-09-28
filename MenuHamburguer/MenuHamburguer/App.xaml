@@ -3,6 +3,20 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MenuHamburguer.App">
     <Application.Resources>
+        <ResourceDictionary>
 
+            <Style x:Key="btnVermelho" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="Red"/>
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="CornerRadius" Value="5"/>
+            </Style>
+
+            <Style x:Key="btnCinza" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="Gray"/>
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="CornerRadius" Value="5"/>
+            </Style>
+
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
