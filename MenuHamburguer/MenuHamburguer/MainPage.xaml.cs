@@ -6,10 +6,11 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-using AppNovaGuiaCursoDS.Views;
+using MenuHamburguer.Views;
 
-namespace AppNovaGuiaCursoDS
+namespace MenuHamburguer
 {
+
     public partial class MainPage : MasterDetailPage
     {
         public MainPage()
@@ -27,7 +28,7 @@ namespace AppNovaGuiaCursoDS
             }
             catch (Exception ex)
             {
-                await DisplayAlert("Eita", ex.Message, "OK");
+                DisplayAlert("Eita", ex.Message, "OK");
             }
         }
 
@@ -40,7 +41,7 @@ namespace AppNovaGuiaCursoDS
             }
             catch (Exception ex)
             {
-                await DisplayAlert("Eita", ex.Message, "OK");
+                DisplayAlert("Eita", ex.Message, "OK");
             }
         }
 
@@ -53,7 +54,7 @@ namespace AppNovaGuiaCursoDS
             }
             catch (Exception ex)
             {
-                await DisplayAlert("Eita", ex.Message, "OK");
+                DisplayAlert("Eita", ex.Message, "OK");
             }
         }
 
@@ -66,7 +67,7 @@ namespace AppNovaGuiaCursoDS
             }
             catch (Exception ex)
             {
-                await DisplayAlert("Eita", ex.Message, "OK");
+                DisplayAlert("Eita", ex.Message, "OK");
             }
         }
 
@@ -79,7 +80,7 @@ namespace AppNovaGuiaCursoDS
             }
             catch (Exception ex)
             {
-                await DisplayAlert("Eita", ex.Message, "OK");
+                DisplayAlert("Eita", ex.Message, "OK");
             }
         }
 
@@ -92,7 +93,7 @@ namespace AppNovaGuiaCursoDS
             }
             catch (Exception ex)
             {
-                await DisplayAlert("Eita", ex.Message, "OK");
+                DisplayAlert("Eita", ex.Message, "OK");
             }
         }
     }
