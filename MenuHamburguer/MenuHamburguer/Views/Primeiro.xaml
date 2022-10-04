@@ -3,10 +3,27 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MenuHamburguer.Views.Primeiro">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout VerticalOptions="CenterAndExpand" Padding="10">
+
+                <Button Text="Linguagem, Trabalho e Tecnologia" Clicked="btn_LTT" 
+                        Style="{StaticResource btnCinza}"/>
+                <Button Text="Programação e Algoritmos" Clicked="btn_PA" 
+                        Style="{StaticResource btnCinza}"/>
+                <Button Text="Banco de Dados I" Clicked="btn_BD1" 
+                        Style="{StaticResource btnCinza}"/>
+                <Button Text="Análise e projeto de Sistemas" Clicked="btn_APS" 
+                        Style="{StaticResource btnCinza}"/>
+                <Button Text="Design Digital" Clicked="btn_Design" 
+                        Style="{StaticResource btnCinza}"/>
+                <Button Text="Programação Web I" Clicked="btn_PW1" 
+                        Style="{StaticResource btnCinza}"/>
+                <Button Text="Fundamentos da Informática" Clicked="btn_FI" 
+                        Style="{StaticResource btnCinza}"/>
+                <Button Text="Técnicas de Programação" Clicked="btn_TP" 
+                        Style="{StaticResource btnCinza}"/>
+
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

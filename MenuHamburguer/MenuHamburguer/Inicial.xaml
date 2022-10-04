@@ -20,7 +20,10 @@
                 Style="{StaticResource textoCentralizado}" />
 
             <Image Source=""/>
-        </StackLayout>
+
+            <Label Text="Este App foi desenvolvido sob a orientação do Prof. Tiago A. Silva e do Prof. Marcos"
+                Style="{StaticResource textoCentralizado}" />
+            </StackLayout>
         </ScrollView>
     </ContentPage.Content>
 </ContentPage>
