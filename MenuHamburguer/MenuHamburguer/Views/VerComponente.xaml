@@ -3,10 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MenuHamburguer.Views.VerComponente">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout VerticalOptions="CenterAndExpand">
+            <ScrollView>
+                <StackLayout Padding="20">
+            <Label Text="{Binding Nome}" HorizontalTextAlignment="Center" FontAttributes="Bold"
+                   Margin="0, 0, 0, 30" TextColor="Black" FontSize="Title" />
+
+            <Label Text="{Binding AtribuicoesResponsabilidades}" Margin="0, 0, 0, 30" FontSize="Medium" 
+                   HorizontalTextAlignment="Center"/>
+                </StackLayout>
+            </ScrollView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
