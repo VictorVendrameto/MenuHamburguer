@@ -7,14 +7,18 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+using MenuHamburguer.Model;
+
 namespace MenuHamburguer.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class VerComponente : ContentPage
     {
-        public VerComponente()
+        public VerComponente(Componente c)
         {
             InitializeComponent();
+
+            this.BindingContext = c;
         }
     }
 }

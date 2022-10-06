@@ -56,11 +56,11 @@ namespace MenuHamburguer.Views
                     ValoresAtitudes = "Incentivar o dialogo e a interlocução. * Responsabilizar-se pela produção, utilização e " +
                                       "divulgação de informações. * Estimular a proatividade. "
                 };
-                await Navigation.PushAsync(new VerComponente(c));
+                 Navigation.PushAsync(new VerComponente(c));
             }
             catch (Exception ex)
             {
-                await DisplayAlert("Eita!", ex.Message, "OK");
+                 DisplayAlert("Eita!", ex.Message, "OK");
             }
         }
 
@@ -79,11 +79,11 @@ namespace MenuHamburguer.Views
                     ValoresAtitudes = "Estimular a organização. * Fortalecer a persistência e o interesse na resolução " +
                                       "de situações-problema. * Promover ações que considerem o respeito às normas estabelecidas. "
                 };
-                await Navigation.PushAsync(new VerComponente(c));
+                 Navigation.PushAsync(new VerComponente(c));
             }
             catch (Exception ex)
             {
-                await DisplayAlert("Eita!", ex.Message, "OK");
+                 DisplayAlert("Eita!", ex.Message, "OK");
             }
         }
 
@@ -102,11 +102,11 @@ namespace MenuHamburguer.Views
                     ValoresAtitudes = "Estimular a organização. *Incentivar a criatividade. * Fortalecer a persistência " +
                                       "e o interesse na resolução de situações-problema.  ",
                 };
-                await Navigation.PushAsync(new VerComponente(c));
+                 Navigation.PushAsync(new VerComponente(c));
             }
             catch (Exception ex)
             {
-                await DisplayAlert("Eita!", ex.Message, "OK");
+                 DisplayAlert("Eita!", ex.Message, "OK");
             }
         }
 
@@ -125,11 +125,11 @@ namespace MenuHamburguer.Views
                     ValoresAtitudes = "Incentivar a criatividade. * Respeitar as manifestações culturais de outros povos. " +
                                       "* Incentivar ações que promovam a cooperação. ",
                 };
-                await Navigation.PushAsync(new VerComponente(c));
+                 Navigation.PushAsync(new VerComponente(c));
             }
             catch (Exception ex)
             {
-                await DisplayAlert("Eita!", ex.Message, "OK");
+                 DisplayAlert("Eita!", ex.Message, "OK");
             }
         }
 
@@ -148,11 +148,11 @@ namespace MenuHamburguer.Views
                     ValoresAtitudes = "Incentivar a criatividade. * Estimular a organização. * Fortalecer a persistencia " +
                                       "e o interesse na resolução de situações-problema. ",
                 };
-                await Navigation.PushAsync(new VerComponente(c));
+                Navigation.PushAsync(new VerComponente(c));
             }
             catch (Exception ex)
             {
-                await DisplayAlert("Eita!", ex.Message, "OK");
+                DisplayAlert("Eita!", ex.Message, "OK");
             }
         }
 
@@ -167,11 +167,11 @@ namespace MenuHamburguer.Views
                     AtbResponsa = "Operar sistemas computacionais.  ",
                     ValoresAtitudes = "Desenvolver a criticidade. * Incentivar comportamentos éticos. * Promover ações que considerem o respeito às normas estabelecidas.  "
                 };
-                await Navigation.PushAsync(new VerComponente(c));
+                 Navigation.PushAsync(new VerComponente(c));
             }
             catch (Exception ex)
             {
-                await DisplayAlert("Eita!", ex.Message, "OK");
+                 DisplayAlert("Eita!", ex.Message, "OK");
             }
         }
 
@@ -188,11 +188,11 @@ namespace MenuHamburguer.Views
                     
                     ValoresAtitudes = "Incentivar a criatividade. • Incentivar comportamentos éticos. • Fortalecer a persistência e o interesse na resolução de situações-problema. "
                 };
-                await Navigation.PushAsync(new VerComponente(c));
+                 Navigation.PushAsync(new VerComponente(c));
             }
             catch (Exception ex)
             {
-                await DisplayAlert("Eita!", ex.Message, "OK");
+                 DisplayAlert("Eita!", ex.Message, "OK");
             }
         }
 
