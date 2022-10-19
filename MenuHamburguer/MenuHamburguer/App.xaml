@@ -18,20 +18,20 @@
             </Style>
             
 
-            <Style x:Name="txtCentra" TargetType="Label">
+            <Style x:Key="txtCentra" TargetType="Label">
                 <Setter Property="HorizontalOptions" Value="Center"/>
                 <Setter Property="HorizontalTextAlignment" Value="Center"/>
-                <Setter Property="TextColor" Value="Aquamarine"/>
+                <Setter Property="TextColor" Value="Accent"/>
             </Style>
 
-            <Style x:Name="txtCentraRed" TargetType="Label">
+            <Style x:Key="txtCentraRed" TargetType="Label">
                 <Setter Property="HorizontalOptions" Value="Center"/>
-                <Setter Property="TextColor" Value="Red"/>
+                <Setter Property="TextColor" Value="Accent"/>
             </Style>
 
-            <Style x:Name="txtTitleCentraRed" TargetType="Label">
+            <Style x:Key="txtTitleCentraRed" TargetType="Label">
                 <Setter Property="HorizontalOptions" Value="Center"/>
-                <Setter Property="TextColor" Value="Red"/>
+                <Setter Property="TextColor" Value="Accent"/>
             </Style>
 
             <Style x:Key="btnTransparent" TargetType="Label">

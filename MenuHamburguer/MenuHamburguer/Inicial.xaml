@@ -15,7 +15,7 @@
                 FontSize="Medium"
                 Style="{StaticResource txtCentra}"/>
 
-            <Label Text="Em breve este App estará disponível na Play Store para download."
+            <Label Text="Este App estará disponível na Expotec."
                 FontSize="Medium"
                 Style="{StaticResource txtCentra}" />
 
