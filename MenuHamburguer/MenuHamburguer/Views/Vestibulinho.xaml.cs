@@ -16,5 +16,17 @@ namespace MenuHamburguer.Views
         {
             InitializeComponent();
         }
+        private void btnVest(object sender, EventArgs e)
+        {
+            try
+            {
+                //acessa um link
+                Device.OpenUri(new Uri("https://www.vestibulinhoetec.com.br"));
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("Eita!", ex.Message, "OK");
+            }
+        }
     }
 }

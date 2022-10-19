@@ -16,6 +16,28 @@
                 <Setter Property="TextColor" Value="White" />
                 <Setter Property="CornerRadius" Value="5"/>
             </Style>
+            
+
+            <Style x:Name="txtCentra" TargetType="Label">
+                <Setter Property="HorizontalOptions" Value="Center"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                <Setter Property="TextColor" Value="Aquamarine"/>
+            </Style>
+
+            <Style x:Name="txtCentraRed" TargetType="Label">
+                <Setter Property="HorizontalOptions" Value="Center"/>
+                <Setter Property="TextColor" Value="Red"/>
+            </Style>
+
+            <Style x:Name="txtTitleCentraRed" TargetType="Label">
+                <Setter Property="HorizontalOptions" Value="Center"/>
+                <Setter Property="TextColor" Value="Red"/>
+            </Style>
+
+            <Style x:Key="btnTransparent" TargetType="Label">
+                <Setter Property="BackgroundColor" Value="Transparent"/>
+            </Style>
+
 
         </ResourceDictionary>
     </Application.Resources>

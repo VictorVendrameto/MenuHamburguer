@@ -2,27 +2,27 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MenuHamburguer.Inicial"
-             BackgroundColor="PeachPuff"
+             BackgroundColor="#F3F2F0"
              Title="App Guia de Curso de DS">
     <ContentPage.Content>
         <ScrollView>
-        <StackLayout>
-            <Label Text="Olá! Este é o aopcwfhjuibyv osfrn"
+        <StackLayout Padding="10">
+            <Label Text="Olá! Este é o App para guiá-lo pelo Curso Técnico em Desenvolvimento de Sistemas"
                 FontSize="Medium"
-                 />
+                 Style="{StaticResource txtCentra}"/>
 
             <Label Text="O curso tem três modulos e dura um ano e meio. Pensamos em desenvolver este App para explicar o conteúdo"
                 FontSize="Medium"
-                />
+                Style="{StaticResource txtCentra}"/>
 
             <Label Text="Em breve este App estará disponível na Play Store para download."
                 FontSize="Medium"
-                 />
+                Style="{StaticResource txtCentra}" />
 
             <Image Source=""/>
 
-            <Label Text="Este App foi desenvolvido sob a orientação do Prof. Tiago A. Silva e do Prof. Marcos"
-                 />
+            <Label Text="Este App foi desenvolvido sob a orientação do Prof. Tiago A. Silva e do Prof. Marcos R. Pagagnotti"
+                 Style="{StaticResource txtCentra}"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
