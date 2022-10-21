@@ -17,7 +17,7 @@
 
             <Label Text="Este App estará disponível na Expotec."
                 FontSize="Medium"
-                Style="{StaticResource txtCentra}" />
+                Style="{StaticResource txtCentraRed}" />
 
             <Image Source=""/>
 

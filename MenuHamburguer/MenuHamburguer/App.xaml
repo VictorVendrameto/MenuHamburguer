@@ -21,7 +21,7 @@
             <Style x:Key="txtCentra" TargetType="Label">
                 <Setter Property="HorizontalOptions" Value="Center"/>
                 <Setter Property="HorizontalTextAlignment" Value="Center"/>
-                <Setter Property="TextColor" Value="Accent"/>
+                <Setter Property="TextColor" Value="Black"/>
             </Style>
 
             <Style x:Key="txtCentraRed" TargetType="Label">

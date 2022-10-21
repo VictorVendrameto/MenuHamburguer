@@ -2,18 +2,22 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MenuHamburguer.Views.Segundo"
-             BackgroundColor="#F3F2F0">
+             BackgroundColor="#F3F2F0"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             Title="Disciplinas do Segundo Ano"
+             mc:Ignorable="d">
     <ContentPage.Content>
          <ScrollView>
             <StackLayout VerticalOptions="CenterAndExpand" Padding="10">
 
-                <Button Text="Inglês Instrumental " Clicked="btn_Ing" Style="{ StaticResource botaoCinza }" />
-                <Button Text="Desenvolvimento de Sistemas " Clicked="btn_DS" Style="{ StaticResource botaoCinza }" />
-                <Button Text="Banco de Dados II " Clicked="btn_BD2" Style="{ StaticResource botaoCinza }" />
-                <Button Text="Ética e Cidadania Organizacional " Clicked="btn_ET" Style="{ StaticResource botaoCinza }" />
-                <Button Text="Programação de Aplicativos Mobile I " Clicked="btn_APM" Style="{ StaticResource botaoCinza }" />
-                <Button Text="Programação Web II " Clicked="btn_PW2" Style="{ StaticResource botaoCinza }" />
-                <Button Text="Sistemas Embarcados " Clicked="btn_SE" Style="{ StaticResource botaoCinza }" />
+                <Button Text="Inglês Instrumental " Clicked="btn_Ing" Style="{ StaticResource btnCinza }" />
+                <Button Text="Desenvolvimento de Sistemas " Clicked="btn_DS" Style="{ StaticResource btnCinza }" />
+                <Button Text="Banco de Dados II " Clicked="btn_BD2" Style="{ StaticResource btnCinza }" />
+                <Button Text="Ética e Cidadania Organizacional " Clicked="btn_ET" Style="{ StaticResource btnCinza }" />
+                <Button Text="Programação de Aplicativos Mobile I " Clicked="btn_APM" Style="{ StaticResource btnCinza }" />
+                <Button Text="Programação Web II " Clicked="btn_PW2" Style="{ StaticResource btnCinza }" />
+                <Button Text="Sistemas Embarcados " Clicked="btn_SE" Style="{ StaticResource btnCinza }" />
 
             </StackLayout>
         </ScrollView>
