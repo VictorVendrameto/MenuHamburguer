@@ -38,7 +38,10 @@
                 <Setter Property="BackgroundColor" Value="Transparent"/>
             </Style>
 
-
+            <Style TargetType="NavigationPage">
+                <Setter Property="BarBackgroundColor" Value="Red"/>
+                <Setter Property="BarTextColor" Value="White"/>
+            </Style>
         </ResourceDictionary>
     </Application.Resources>
 </Application>

@@ -16,10 +16,10 @@
                              Padding="10"
                              Margin="10"
                              HorizontalOptions="FillAndExpand">
-                    <Image Source="" Aspect="AspectFit"/>
+                    <Image x:Name="logo" Aspect="AspectFill"/>
                 </StackLayout>
 
-                <StackLayout Grid.Column="1" Spacing="10" Margin="10" BackgroundColor="#F3F2F0">
+                <StackLayout Grid.Column="1" Spacing="10" Margin="10" Padding="10" BackgroundColor="White">
                     <Button Text="Inicial" Clicked="Open_Inicial" Style="{ StaticResource btnVermelho }"/>
                     <Button Text="Primeiro Módulo" Clicked="Open_Primeiro" Style="{ StaticResource btnCinza }"/>
                     <Button Text="Segundo Módulo" Clicked="Open_Segundo" Style="{ StaticResource btnCinza }"/>
