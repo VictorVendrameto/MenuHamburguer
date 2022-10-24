@@ -6,7 +6,7 @@
         <ResourceDictionary>
 
             <Style x:Key="btnVermelho" TargetType="Button">
-                <Setter Property="BackgroundColor" Value="Red"/>
+                <Setter Property="BackgroundColor" Value="#ab0c0c"/>
                 <Setter Property="TextColor" Value="White" />
                 <Setter Property="CornerRadius" Value="5"/>
             </Style>
@@ -39,7 +39,7 @@
             </Style>
 
             <Style TargetType="NavigationPage">
-                <Setter Property="BarBackgroundColor" Value="Red"/>
+                <Setter Property="BarBackgroundColor" Value="#ab0c0c"/>
                 <Setter Property="BarTextColor" Value="White"/>
             </Style>
         </ResourceDictionary>

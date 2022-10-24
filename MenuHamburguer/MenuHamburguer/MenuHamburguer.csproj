@@ -23,10 +23,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Imagem\laranjas.jpg" />
     <None Remove="Imagem\logo-etec.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Imagem\laranjas.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
     <EmbeddedResource Include="Imagem\logo-etec.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>

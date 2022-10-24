@@ -15,6 +15,8 @@ namespace MenuHamburguer
         public Inicial()
         {
             InitializeComponent();
+
+            turma.Source = ImageSource.FromResource("MenuHamburguer.Imagem.laranjas.jpg");
         }
     }
 }

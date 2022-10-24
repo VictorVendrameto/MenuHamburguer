@@ -19,7 +19,7 @@
                 FontSize="Medium"
                 Style="{StaticResource txtCentraRed}" />
 
-            <Image Source=""/>
+            <Image x:Name="turma" Source="laranjas.jpg"/>
 
             <Label Text="Este App foi desenvolvido sob a orientação do Prof. Tiago A. Silva e do Prof. Marcos R. Pagagnotti"
                  Style="{StaticResource txtCentra}"/>
